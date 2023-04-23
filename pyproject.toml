@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cw-3-stroganova"
+version = "0.1.0"
+description = ""
+authors = ["Natalia Stroganova <ntstroganova@gmail.com>"]
+readme = "README.md"
+packages = [{include = "cw_3_stroganova"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
